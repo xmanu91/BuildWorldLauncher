@@ -8,7 +8,7 @@ const net = require('net')
  * @returns {Promise.<Object>} A promise which resolves to an object containing
  * status information.
  */
-exports.getStatus = function(address, port = 25565){
+exports.getStatus = function(address, port = 28056){
 
     if(port == null || port == ''){
         port = 25565
