@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
+  "name": "buildworldlauncher",
   "version": "1.8.0",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "productName": "BuildWorld LAuncher",
+  "description": "Launcher for BuildWorld Server",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/) et Xmanu91",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/xmanu91/BuildWorldLauncher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/xmanu91/BuildWorldLauncher/issues"
   },
   "private": true,
   "main": "index.js",
