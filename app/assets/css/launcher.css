@@ -12,6 +12,8 @@
     src: url('../fonts/Avenir-Book.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @font-face {
     font-family: 'Avenir Medium';
     src: url('../fonts/Avenir-Medium.ttf');
@@ -46,10 +48,10 @@ body, button {
     color: white;
 }
 
-/*body {
-    background: url('./../images/backgrounds/0.jpg') no-repeat center center fixed;
+body {
+    background: url('./../images/backgrounds/2020-10-22_19.46.352.png') no-repeat center center fixed !important;
     background-size: cover;
-}*/
+}
 
 /*******************************************************************************
  *                                                                             *
@@ -110,7 +112,8 @@ body, button {
 }
 #frameTitleText {
     font-size: 14px;
-    font-family: 'Avenir Medium';
+    font-family: 'Avenir Book';
+    font-weight: 700;
     letter-spacing: 0.5px;
 }
 
@@ -3750,8 +3753,9 @@ input:checked + .toggleSwitchSlider:before {
 /* Stationary image for the spinner. */
 #loadCenterImage {
     position: absolute;
-    width: 277px;
-    height: auto;
+    width: 980px;
+    height: 522px;
+    object-fit: cover;
 }
 
 /* Rotating image for the spinner. */
