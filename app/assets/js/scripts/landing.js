@@ -4,6 +4,7 @@
 // Requirements
 const cp                      = require('child_process')
 const crypto                  = require('crypto')
+const { ALL } = require('dns')
 const {URL}                   = require('url')
 
 // Internal Requirements

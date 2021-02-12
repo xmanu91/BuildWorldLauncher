@@ -92,6 +92,9 @@ const DEFAULT_CONFIG = {
         launcher: {
             allowPrerelease: false,
             dataDirectory: dataPath
+        },
+        language: {
+            name: 'en_US',
         }
     },
     newsCache: {
@@ -685,4 +688,12 @@ exports.getAllowPrerelease = function(def = false){
  */
 exports.setAllowPrerelease = function(allowPrerelease){
     config.settings.launcher.allowPrerelease = allowPrerelease
+}
+
+exports.setLanguage = function(languageName){
+    config.settings.language.name = languageName
+}
+
+exports.getLanguage = function(def = false){
+    return !def ? config.settings.language.name : DEFAULT_CONFIG.settings.language.name
 }
