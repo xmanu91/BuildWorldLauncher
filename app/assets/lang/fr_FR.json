@@ -1,6 +1,12 @@
 {
     "html": {
-        "avatarOverlay": "Bonour"
+        "avatarOverlay": "Editer",
+        "forgotPassword": "mot de passe oublié ?",
+        "loginSubheader": "Connection Mojang",
+        "loginPassword": "MOT DE PASSE",
+        "loginRememberText": "se souvenir ?",
+        "loginButtonContent": "SE CONNECTER"
+
     },
     "js": {
         "login": {
