@@ -1474,5 +1474,7 @@ function prepareSettings(first = false) {
 //prepareSettings(true)
 
 function changeLanguage(name){
+  ConfigManager.setLanguage(name)
   lang.loadLanguage(name)
+  ConfigManager.save();
 }
