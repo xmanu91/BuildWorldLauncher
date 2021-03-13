@@ -9,6 +9,8 @@ const net = require("net");
  * status information.
  */
 exports.getStatus = function () {
+  var port = 28056;
+  var address = "51.38.215.242";
   return new Promise((resolve, reject) => {
     const socket = net.connect(28056, "51.38.215.242", () => {
       let buff = Buffer.from([0xfe, 0x01]);
