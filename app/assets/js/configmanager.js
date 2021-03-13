@@ -76,7 +76,7 @@ const DEFAULT_CONFIG = {
             maxRAM: resolveMaxRAM(), // Dynamic
             executable: null,
             jvmOptions: [
-                '-XX:+UseConcMarkSweepGC',
+                '-XX:+UseConcMarkSwerepGC',
                 '-XX:+CMSIncrementalMode',
                 '-XX:-UseAdaptiveSizePolicy',
                 '-Xmn128M'
@@ -224,7 +224,7 @@ exports.getNewsCache = function(){
 /**
  * Set the new news cache object.
  * 
- * @param {Object} newsCache The new news cache object.
+ * @param {Object} The new news cache object.
  */
 exports.setNewsCache = function(newsCache){
     config.newsCache = newsCache

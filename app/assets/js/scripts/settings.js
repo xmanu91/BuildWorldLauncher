@@ -316,7 +316,6 @@ function settingsSaveDisabled(v) {
 /* Closes the settings view and saves all data. */
 settingsNavDone.onclick = () => {
   saveSettingsValues();
-  saveModConfiguration();
   ConfigManager.save();
   saveDropinModConfiguration();
   saveShaderpackSettings();
