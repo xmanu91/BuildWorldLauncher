@@ -4,6 +4,7 @@ const semver = require("semver");
 
 const { JavaGuard } = require("./assets/js/assetguard");
 const DropinModUtil = require("./assets/js/dropinmodutil");
+const lang          = require('./assets/js/langloader')
 
 const settingsState = {
   invalid: new Set(),
@@ -1470,3 +1471,9 @@ function prepareSettings(first = false) {
 
 // Prepare the settings UI on startup.
 //prepareSettings(true)
+
+function changeLanguage(name){
+  ConfigManager.setLanguage(name)
+  lang.loadLanguage(name)
+  ConfigManager.save();
+}

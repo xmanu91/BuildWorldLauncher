@@ -11,6 +11,7 @@
                     <button class="settingsNavItem" rSc="settingsTabMods">Mods</button>
                     <button class="settingsNavItem" rSc="settingsTabJava">Java</button>
                     <button class="settingsNavItem" rSc="settingsTabLauncher">Launcher</button>
+                    <button class="settingsNavItem" rSc="settingsTabLanguage">Language</button>
                     <div class="settingsNavSpacer"></div>
                     <button class="settingsNavItem" rSc="settingsTabAbout">About</button>
                     <button class="settingsNavItem" rSc="settingsTabUpdate" id="settingsNavUpdate">Updates</button>
@@ -248,6 +249,20 @@
                 <div class="settingsFileSelDesc">All game files and local Java installations will be stored in the data directory.<br>Screenshots and world saves are stored in the instance folder for the corresponding server configuration.</div>
             </div>
         </div>
+
+        <div id="settingsTabLanguage" class="settingsTab" style="display: none;">
+            <div class="settingsTabHeader">
+                <span class="settingsTabHeaderText">Language</span>
+                <span class="settingsTabHeaderDesc">Options related to the language traduction.</span>
+
+                <button class="languagebutton" onclick="changeLanguage('fr_FR');">Français</button> 
+                <button class="languagebutton" onclick="changeLanguage('en_US');">Anglais</button>
+            </div>
+           
+            <p>After changing the language of the launcher, reboot it.<br>
+               Après avoir changé la langue du launcher relancez-le.</p>
+        </div>
+
         <div id="settingsTabAbout" class="settingsTab" style="display: none;">
             <div class="settingsTabHeader">
                 <span class="settingsTabHeaderText">About</span>
