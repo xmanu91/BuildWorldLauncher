@@ -13,7 +13,7 @@
                     <button class="settingsNavItem" rSc="settingsTabLauncher">Launcher</button>
                     <button class="settingsNavItem" rSc="settingsTabLanguage">Language</button>
                     <div class="settingsNavSpacer"></div>
-                    <button class="settingsNavItem" rSc="settingsTabAbout">About</button>
+                    <button id="aboutTab" class="settingsNavItem" rSc="settingsTabAbout">About</button>
                     <button class="settingsNavItem" rSc="settingsTabUpdate" id="settingsNavUpdate">Updates</button>
                     <div id="settingsNavContentBottom">
                         <div class="settingsNavDivider"></div>
@@ -26,8 +26,8 @@
     <div id="settingsContainerRight">
         <div id="settingsTabAccount" class="settingsTab">
             <div class="settingsTabHeader">
-                <span class="settingsTabHeaderText">Account Settings</span>
-                <span class="settingsTabHeaderDesc">Add new accounts or manage existing ones.</span>
+                <span id="AccountTabHeaderText" class="settingsTabHeaderText">Account Settings</span>
+                <span id="addAccountText" class="settingsTabHeaderDesc">Add new accounts or manage existing ones.</span>
             </div>
             <div id="settingsAddAccountContainer">
                 <button id="settingsAddAccount">
@@ -35,7 +35,7 @@
                 </button>
             </div>
             <div id="settingsCurrentAccountsHeader">
-                <span class="settingsFieldTitle">Current Accounts</span>
+                <span id="currentAccountFieldTitle" class="settingsFieldTitle">Current Accounts</span>
             </div>
             <div id="settingsCurrentAccounts">
                 <!-- Auth accounts populated here. -->
@@ -43,11 +43,11 @@
         </div>
         <div id="settingsTabMinecraft" class="settingsTab" style="display: none;">
             <div class="settingsTabHeader">
-                <span class="settingsTabHeaderText">Minecraft Settings</span>
-                <span class="settingsTabHeaderDesc">Options related to game launch.</span>
+                <span id="MinecraftTabHeaderText" class="settingsTabHeaderText">Minecraft Settings</span>
+                <span id="settingTabMinecraftHeaderDesc" class="settingsTabHeaderDesc">Options related to game launch.</span>
             </div>
             <div id="settingsGameResolutionContainer">
-                <span class="settingsFieldTitle">Game Resolution</span>
+                <span id="resolutionSettingFieldTitle" class="settingsFieldTitle">Game Resolution</span>
                 <div id="settingsGameResolutionContent">
                     <input type="number" id="settingsGameWidth" min="0" cValue="GameWidth">
                     <div id="settingsGameResolutionCross">&#10006;</div>
@@ -56,7 +56,7 @@
             </div>
             <div class="settingsFieldContainer">
                 <div class="settingsFieldLeft">
-                    <span class="settingsFieldTitle">Launch in fullscreen.</span>
+                    <span id="fullScreenFieldTitle" class="settingsFieldTitle">Launch in fullscreen.</span>
                 </div>
                 <div class="settingsFieldRight">
                     <label class="toggleSwitch">
@@ -67,7 +67,7 @@
             </div>
             <div class="settingsFieldContainer">
                 <div class="settingsFieldLeft">
-                    <span class="settingsFieldTitle">Automatically connect to the server on launch.</span>
+                    <span id="automaticallyConnectFieldTitle" class="settingsFieldTitle">Automatically connect to the server on launch.</span>
                 </div>
                 <div class="settingsFieldRight">
                     <label class="toggleSwitch">
@@ -78,8 +78,8 @@
             </div>
             <div class="settingsFieldContainer">
                 <div class="settingsFieldLeft">
-                    <span class="settingsFieldTitle">Launch game process detached from launcher.</span>
-                    <span class="settingsFieldDesc">If the game is not detached, closing the launcher will also close the game.</span>
+                    <span id="detachedGameProcess" class="settingsFieldTitle">Launch game process detached from launcher.</span>
+                    <span id="closeLauncherText" class="settingsFieldDesc">If the game is not detached, closing the launcher will also close the game.</span>
                 </div>
                 <div class="settingsFieldRight">
                     <label class="toggleSwitch">
