@@ -5,8 +5,10 @@
         "loginSubheader": "Connection Mojang",
         "loginPassword": "MOT DE PASSE",
         "loginRememberText": "se souvenir ?",
-        "loginButtonContent": "SE CONNECTER"
-
+        "loginButtonContent": "SE CONNECTER",
+        "accountRegister": "Besoin d'un compte ?",
+        "loginDisclaimerFirstText": "Votre mot de passe est directement envoyé à Mojang, il n'est jamais enregistré.",
+        "loginDisclaimerText": "Le Launcher Buildworld n'est pas affilié à Mojang AB"
     },
     "js": {
         "login": {
