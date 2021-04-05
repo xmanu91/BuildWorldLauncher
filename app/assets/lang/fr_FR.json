@@ -1,5 +1,8 @@
 {
     "html": {
+        "welcomeHeader": "BIENVENUE SURv BUILDWORLD",
+        "welcomeDescription": "BuildWorld est un serveur de build en créatif ouvert à tous.Il fonctionne sous un principe de niveau , a chaque niveau vous pourrez sélectionner une certaine taille de terrains, vous gagnerez des niveaux en faisant des build sur votre terrain , quand votre build est terminé il sera vérifié par un membre du staff et vous pourrez alors agrandir votre terrain.Il y a un deuxième principe, celui de l'économie, A chaque saison vous avez un thème, si votre build respecte ce thème vous gagnerez plus ou moins d'argent. Si vous voulez un chunk déjà pris il vous suffit d'envoyer un message au propriétaire de se chunk et lui proposer un rachat , toute les précisions se trouvent dans le règlement.",
+        "welcomeDescCTA": "Vous n'êtes qu'à quelques clics de Buidlworld.",
         "avatarOverlay": "Editer",
         "forgotPassword": "mot de passe oublié ?",
         "loginSubheader": "Connection Mojang",
@@ -17,6 +20,7 @@
         "launch_details_text": "Patientez...",
         "launch_button": "JOUER",
         "settingsNavHeaderText": "Paramètres",
+        "settingsNavAccount": "Compte",
         "aboutTab": "A propos",
         "settingsNavUpdate": "Mises à jour",
         "settingsNavDone": "Terminer",
@@ -30,7 +34,30 @@
         "fullScreenFieldTitle": "Lancer en plein écran",
         "automaticallyConnectFieldTitle": "Se connecter automatiquement au serveur au lancement.",
         "detachedGameProcess": "Lancer le jeu dans un processus détaché.",
-        "closeLauncherText": "Si le jeu n'est pas détaché, le launcher se fermera quand le jeu se ferme."
+        "closeLauncherText": "Si le jeu n'est pas détaché, le launcher se fermera quand le jeu se ferme.",
+        "settingTabHeaderText": "Paramètres des shaders",
+        "settingsTabHeaderDesc": "Activer ou desactiver les shaders",
+        "settingsShaderpackDesc": "Activer ou désactiver les shaders.Veuillez noter que les shaders ne fonctionneront correctement que sur des configurations puissantes. Vous pouvez ajouter des shaders personnalisés ici.",
+        "settingsShadersSelected": "Selectionez des shaders",
+        "settingsTabHeaderTextJava": "Paramètres de java",
+        "settingsTabHeaderDescJava": "Gérer la configuration java(avancé)",
+        "settingsMemoryTitle": "Mémoire",
+        "settingsMemoryDesc": "Le minimum de RAM rocomendé et de 3Go. La définition des valeurs minimale et maximale sur la même valeur peut réduire le décalage",
+        "settingsMemoryStatusTitle": "Disponible",
+        "settingsFileSelDesc": "L'executable java est valide avant le lancement du jeu.",
+        "settingsJVMOptsTitle": "Options additionnels de la JVM",
+        "settingsTabHeaderTextLauncher": "Paramètres du launcher",
+        "settingsTabHeaderTextAbout": "A propos",
+        "settingsTabHeaderDescLauncher": "Options relatives au launcher",
+        "settingsDataDirTitle": "Répertoire de données",
+        "settingsFileSelButtonLauncher": "choisir un dossier",
+        "settingsFileSelDescLauncher": "Tous les fichiers du jeu et les installations Java locales seront stockés dans le répertoire de données. Les captures d'écran et les sauvegardes du monde sont stockées dans le dossier d'instance de la configuration de serveur correspondante.",
+        "settingsTabHeaderDescAbout": "Affichez les informations et les notes de version de la version actuelle.",
+        "settingsAboutCurrentVersionTitle": "Version stable",
+        "settingsTabHeaderTextUpdate": "Mises à jours du Launcher",
+        "settingsTabHeaderDescUpdate": "Téléchargez, installez et consultez les mises à jour du Launcher",
+        "settingsUpdateTitle": "Vous avez la dernière version du launcher",
+        "settingsUpdateActionButton": "Vérifier les nouvelles versions"
     },
     "js": {
         "login": {
